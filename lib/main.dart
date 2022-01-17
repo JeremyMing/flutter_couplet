@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -44,6 +45,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
 
   /// 随机数生成 每次随机显示数据中的对联
   int randomNum = 0;
+
+  AudioCache player = AudioCache();
 
   @override
   void initState() {
@@ -99,7 +102,11 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       }
       setState(() {});
     });
+    //循环播放
+    player.loop('sounds/bg.mp3');
+
   }
+
 
   @override
   Widget build(BuildContext context) {
