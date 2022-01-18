@@ -1,16 +1,6 @@
-# flutter_couplet
+# 掘金地址
 
-A new Flutter project.
+[https://juejin.cn/post/7054016272798842888](https://juejin.cn/post/7054016272798842888)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 效果
+![2022-01-17 11 03 17](https://user-images.githubusercontent.com/26619749/149861288-8be1f4ee-bb9a-4ea5-a5e8-3c69775bdb46.gif)
